@@ -1,5 +1,10 @@
+import Slider from "../../componenets/Slider/Slider";
+import "./Home.scss";
+
 export const Home = () => {
     return (
-        <div>Home Sweet Home</div>
+        <>
+            <Slider />
+        </>
     )
 }
