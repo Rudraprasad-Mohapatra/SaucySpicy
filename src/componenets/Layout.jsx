@@ -6,12 +6,11 @@ import { Navbar } from "./Navbar/Navbar";
 
 function Layout() {
     return (
-        <>
+        <div className="app">
             <Navbar />
-            <h1>Hii I am layout</h1>
                 <Outlet />
             <Footer />
-        </>
+        </div>
     );
 }
 
