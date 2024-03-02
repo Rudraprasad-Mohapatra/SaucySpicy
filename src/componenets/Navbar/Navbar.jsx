@@ -1,11 +1,11 @@
+import "./Navbar.scss"
+
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import React from "react";
 import { Link } from 'react-router-dom';
-import "./Navbar.scss"
 
 export const Navbar = () => {
     return (
