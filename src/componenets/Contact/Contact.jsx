@@ -11,7 +11,7 @@ function Contact() {
             <div className="wrapper">
                 <span>BE IN TOUCH WITH US :</span>
                 <div className="mail">
-                    <input type="email" name="" id="" placeholder="Enter your email..."/>
+                    <input type="email" name="contactEmail" id="contactEmail" placeholder="Enter your email..."/>
                     <button>JOIN US</button>
                 </div>
                 <div className="icons">

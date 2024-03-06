@@ -12,7 +12,7 @@ export const Products = () => {
 
     return (
         <div className="products">
-            <div className="left" >
+            <div className="left">
                 <div className="filterItem">
                     <h2>Product Categories</h2>
                     <div className="inputItem">
@@ -42,12 +42,11 @@ export const Products = () => {
                     <div className="inputItem">
                         <input type="radio" id="asc" name="price" onChange={() => setSort("asc")}/>
                         <label htmlFor="">Price (Lowest first)</label>
-                        <input type="radio" id="asc" name="" />
                     </div>
                     <div className="inputItem">
-                        <input type="radio" id="dsc" name="price" />
+                    <input type="radio" id="desc" name="price" onChange={() => setSort("desc")}/>
                         <label htmlFor="">Price (Highest first)</label>
-                        <input type="radio" id="desc" name="" onChange={() => setSort("desc")}/>
+                        
                     </div>
                 </div>
             </div>
